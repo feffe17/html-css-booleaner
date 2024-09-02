@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary : #036cad;
+    --secondary : #52a8de;
+    --mark : #d2e317;
+}
