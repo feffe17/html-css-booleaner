@@ -1,0 +1,132 @@
+/* generici */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary : #52a8de;
+    --secondary : #8ad0fb;
+    --mark : #d2e317;
+    --note : grey;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* header */
+header{
+    background-image: url(./img/pattern.png);
+    width: 100vw;
+    height: 15vh;
+    background-size: contain;
+    background-color: var(--primary);
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+/* main */
+main{
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 60vw;
+
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+h6{
+    color: var(--note);
+    font-size: large;
+}
+
+h6 > span{
+    color: var(--primary);
+}
+
+#data{
+    color: var(--note);
+    font-size: medium;
+    display: block;
+}
+
+.pic-desc{
+    display: block;
+}
+
+/* sezione paragrafi */
+
+.paragrafi{
+    margin-top: 35px;
+}
+
+p > span{
+    background-color: var(--mark);
+}
+
+.ulist{
+    padding-inline-start:1em;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    color: white;
+    background-color: var(--primary);
+}
+
+tbody tr:first-child{
+    background-color: var(--secondary);
+}
+
+tbody tr:nth-child(3){
+    background-color: var(--secondary);
+}
+
+/* sezion ads */
+
+.ad{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.advertisement{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.uno{
+    background-image: url(./img/monitor.jpg);    
+    position: relative;
+    top: 20px;
+}
+
+.due{
+    background-image: url(./img/graph.jpg);
+    position: relative;
+    top: 40px;
+}
