@@ -60,3 +60,36 @@ h6 > span{
 .pic-desc{
     display: block;
 }
+
+/* sezione paragrafi */
+
+.paragrafi{
+    margin-top: 35px;
+}
+
+p > span{
+    background-color: var(--mark);
+}
+
+.ulist{
+    padding-inline-start:1em;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    color: white;
+    background-color: var(--primary);
+}
+
+tbody tr:first-child{
+    background-color: var(--secondary);
+}
+
+tbody tr:nth-child(3){
+    background-color: var(--secondary);
+}
