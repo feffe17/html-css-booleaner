@@ -11,6 +11,10 @@
     --note : grey;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* header */
 header{
     background-image: url(./img/pattern.png);
@@ -92,4 +96,31 @@ tbody tr:first-child{
 
 tbody tr:nth-child(3){
     background-color: var(--secondary);
+}
+
+/* sezion ads */
+
+.ad{
+    margin-top: 25px;
+}
+
+.advertisement{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.uno{
+    background-image: url(./img/monitor.jpg);    
+}
+
+.due{
+    background-image: url(./img/graph.jpg);
 }
