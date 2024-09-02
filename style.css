@@ -1,3 +1,4 @@
+/* generici */
 *{
     margin: 0;
     box-sizing: border-box;
@@ -7,8 +8,10 @@
     --primary : #52a8de;
     --secondary : #8ad0fb;
     --mark : #d2e317;
+    --note : grey;
 }
 
+/* header */
 header{
     background-image: url(./img/pattern.png);
     width: 100vw;
@@ -16,14 +19,44 @@ header{
     background-size: contain;
     background-color: var(--primary);
     position: sticky;
+    top: 0;
 }
 
-body{
-    
-}
 #logo{
     height: 60%;
     position: absolute;
     bottom: 0;
     left: 100px;
+}
+
+/* main */
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100vw;
+
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+h6{
+    color: var(--note);
+    font-size: large;
+}
+
+h6 > span{
+    color: var(--primary);
+}
+
+#data{
+    color: var(--note);
+    font-size: medium;
+    display: block;
+}
+
+.pic-desc{
+    display: block;
 }
