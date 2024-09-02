@@ -4,7 +4,26 @@
 }
 
 :root{
-    --primary : #036cad;
-    --secondary : #52a8de;
+    --primary : #52a8de;
+    --secondary : #8ad0fb;
     --mark : #d2e317;
+}
+
+header{
+    background-image: url(./img/pattern.png);
+    width: 100vw;
+    height: 15vh;
+    background-size: contain;
+    background-color: var(--primary);
+    position: sticky;
+}
+
+body{
+    
+}
+#logo{
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
 }
