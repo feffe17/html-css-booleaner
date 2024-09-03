@@ -23,14 +23,16 @@ header{
     background-size: contain;
     background-color: var(--primary);
     position: sticky;
+    text-align: center;
     top: 0;
 }
 
 #logo{
     height: 60%;
-    position: absolute;
-    bottom: 0;
-    left: 100px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 2rem;
 }
 
 /* main */
